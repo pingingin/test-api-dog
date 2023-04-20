@@ -1,0 +1,8 @@
+opencv-python
+scikit-learn
+keras
+Pillow
+requests
+Flask
+tensorflow-cpu
+waitress
