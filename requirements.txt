@@ -4,5 +4,5 @@ keras
 Pillow
 requests
 Flask
-tensorflow-cpu-aws
+tensorflow-cpu
 waitress
