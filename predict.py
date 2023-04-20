@@ -61,6 +61,8 @@ def predict_breed(img_path):
     
     predicted_vector = Resnet50_model.predict(bottleneck_feature)
     # return dog breed that is predicted by the model
+    Resnet50_model = None
+    bottleneck_feature = None
 
     label_to_cat = label_to_category_dict('./label_to_cat.json')
     
